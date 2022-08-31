@@ -311,10 +311,6 @@ Parameters:
     Description: (Optional) The internal DNS hosted zone ID. Leave the default value if you deployed the Biotech Blueprint – Core Quick Start, which creates a private hosted zone for you.
     Type: 'AWS::SSM::Parameter::Value<String>'
     Default: /BB/QuickStart/DNS/HostedZoneId
-  pDNSName:
-    Description: The internal DNS CNAME to be used for the Mosaic server. Leave the default if you are unsure of what this does.
-    Type: String
-    Default: mosaic
   pEC2KeyPair:
     Description: A public/private key pair, which allows you to connect securely to the Mosaic application server.
     Type: AWS::EC2::KeyPair::KeyName  

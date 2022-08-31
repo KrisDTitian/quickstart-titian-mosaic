@@ -305,10 +305,6 @@ Parameters:
     Description: (Optional) Internal DNS hosted zone ID.
     Type: String
     Default: ""
-  pDNSName:
-    Description: The internal DNS CNAME to be used for the Mosaic server. Leave the default if you are unsure of what this does.
-    Type: String
-    Default: mosaic
   pEC2KeyPair:
     Description: Key name for app server.
     Type: AWS::EC2::KeyPair::KeyName  
